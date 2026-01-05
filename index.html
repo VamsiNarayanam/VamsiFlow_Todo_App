@@ -2,32 +2,19 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
-  <title>VamsiFlow Todo App</title>
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <title>VamsiFlow – Todo App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <div class="todo-box">
-
-    <h2 class="app-title">
-        VamsiFlow <span>Todo</span>
-    </h2>
-
-    <div class="input-group">
-
-      <input id="task" placeholder="Enter your task">
-      <button onclick="addTask()">Add</button>
-
+    <div class="todo-box">
+        <h2 class="app-title"> VamsiFlow <span>Todo</span> </h2>
+        <div class="input-group"> <input id="task" placeholder="Enter your task"> <button
+                onclick="addTask()">Add</button> </div>
+        <ul id="list"></ul>
     </div>
-
-    <ul id="list"></ul>
-
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

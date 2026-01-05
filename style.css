@@ -5,7 +5,6 @@
   font-family: "Segoe UI", sans-serif;
 }
 
-
 body {
   min-height: 100vh;
   background: url("todo-image.png");
@@ -15,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .todo-box {
   width: 350px;
@@ -37,7 +35,6 @@ body {
 .app-title span {
   color: #00ffd5;
 }
-
 
 .input-group {
   display: flex;
@@ -69,11 +66,9 @@ body {
   background: #00c9aa;
 }
 
-
 #list {
   list-style: none;
 }
-
 
 #list li {
   background: rgba(255,255,255,0.2);
@@ -85,12 +80,10 @@ body {
   align-items: center;
 }
 
-
 #list li span {
   cursor: pointer;
   font-size: 15px;
 }
-
 
 #list li span.done {
   text-decoration: line-through;
