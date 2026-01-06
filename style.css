@@ -18,10 +18,9 @@ body {
 .todo-box {
   width: 350px;
   background: rgba(97, 97, 97, 0.5);
-  backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 25px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
   color: #fff;
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 .input-group input {
-  flex: 1;
+  flex: 2;
   padding: 10px;
   border-radius: 8px;
   border: none;
@@ -80,12 +79,13 @@ body {
   align-items: center;
 }
 
-#list li span {
+#list li .done {
   cursor: pointer;
   font-size: 15px;
+  font-weight: bold;
 }
 
-#list li span.done {
+ #list li .done {
   text-decoration: line-through;
   color: #b5b5b5;
 }
@@ -99,7 +99,6 @@ body {
   height: 26px;
   cursor: pointer;
   font-weight: bold;
-  transition: 0.3s;
 }
 
 #list li button:hover {
